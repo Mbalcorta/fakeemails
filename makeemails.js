@@ -5,7 +5,7 @@ const fields = ['first_name', 'last_name', 'email'];
 const allEmails = [];
 
 for(var i = 1; i < 5001; i++){
-  allEmails.push({'first_name': i.toString() , 'last_name': 'Test', 'email': 'dpsentmeow'+i+'@mailinator.com'})
+  allEmails.push({'first_name': i.toString() , 'last_name': 'Test', 'email': 'putinwhatever'+i+'@mailinator.com'})
 }
 
 const json2csvParser = new Json2csvParser({ fields });
