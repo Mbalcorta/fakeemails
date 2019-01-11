@@ -1,1 +1,0 @@
-var text = fs.readFileSync("./mytext.txt").toString('utf-8');
